@@ -40,6 +40,14 @@ namespace LearnersNet
 
             Console.WriteLine(myArr.Length);
 
+            foreach (int i in myArr)
+            {
+                Console.WriteLine(myArr);
+            }
+            {
+
+            }
+
         }
     }
 }
