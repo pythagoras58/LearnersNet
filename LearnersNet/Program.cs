@@ -10,6 +10,12 @@ namespace LearnersNet
             public string author;
             public string title;
 
+            public Book(decimal a, string b, string c)
+            {
+                this.price = a;
+                this.author = b;
+                this.title = c;
+            }
 
         }
 
@@ -21,6 +27,10 @@ namespace LearnersNet
             book.price = 90.24m; 
 
             Console.WriteLine(book.price);
+
+            Book book1 = new Book(232.23m, "Love", "Lovers");
+
+            Console.WriteLine(book1.title);
 
             int[] myArr = new int[4];
             myArr[0] = 3;
