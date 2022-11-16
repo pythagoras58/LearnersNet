@@ -15,12 +15,12 @@ namespace LearnersNet
 
         static void Main(string[] args)
         {
-            /*Book book;
+            Book book;
             book.author = "Pythagoras Danso";
             book.title = "My love for you";
-            book.price = 90.24m; */
+            book.price = 90.24m; 
 
-            //Console.WriteLine(book.ToString());
+            Console.WriteLine(book.price);
 
             int[] myArr = new int[4];
             myArr[0] = 3;
